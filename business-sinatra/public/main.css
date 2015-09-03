@@ -1,3 +1,47 @@
+nav {
+	height:200px;
+	width: 100%;
+}
+#logo {
+	display: inline-block;
+	background-color: black;
+	border-radius: 50%;
+	border: 1px solid black;
+	color: white;
+	height: 75px;
+	width: 75px;
+}
+
+#logo p {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding: 1em;
+}
+
+.nav_bar {
+	list-style: none;
+	float: right;
+	margin-top: 5em;	
+}
+
+.nav_bar li {
+	display: inline-block;
+}
+
+.nav_bar li a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding: 1em;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+
+
+/*---------FOOTER----------------*/
+
 footer {
 	color: white;
 	background-color: black;
