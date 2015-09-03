@@ -23,5 +23,5 @@ end
 
 get '/blog' do 
 	@title = "LAJ Consulting - Blog"
-	erb :about
+	erb :blog
 end
