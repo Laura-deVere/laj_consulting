@@ -1,0 +1,23 @@
+.portfolio {
+	width: 1200px;
+	margin-left: 0 auto;
+}
+
+
+.our_work {
+	margin-bottom: 2em; 
+}
+
+
+.portfolio_imgs {
+	margin-left: 110px;
+	margin-bottom: 75px; 
+}
+
+.portfolio_imgs img {
+	padding: 1em;	
+}
+
+.our_work {
+	text-align: center;
+}
