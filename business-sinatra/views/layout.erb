@@ -2,28 +2,35 @@
  <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<meta charset = "UTF-8">
 	<title><%= @title  %></title>
 </head>
 <body>
-	<nav>
-		<ul>
-			<li><a href=""></a>Home</li>
-			<li><a href=""></a>Our Team</li>
-			<li><a href=""></a>Portfolio</li>
-			<li><a href=""></a>Blog</li>
-			<li><a href=""></a>Contact</li>
-		</ul>
-	</nav>
+	<head>
+		<nav>
+			<p id="logo">LAJ.</p>
+			<ul>
+				<li><a href='/'>Home</li></a>
+				<li><a href='/ourteam'>Our Team</li></a>
+				<li><a href='/portfolio'>Portfolio</li></a>
+				<li><a href='/blog'>Blog</li></a>
+				<li><a href='/contact'>Contact</li></a>
+			</ul>
+		</nav>
+	</header>
 	<%= yield %>
 	<footer>
-		<ul>
-			<li>Facebook!</li>
-			<li>Twitter!</li>
-			<li>Linkedin</li>
+		<ul class="social_nav">
+ 				<li><a href="https://www.facebook.com"><i class="ion-social-facebook"></i></a>
+	      </li>
+	      <li><a href="http://www.twitter.com"><i class="ion-social-twitter"></i></a>
+	      </li>
+	      <li><a href="https://www.linkedin.com"><i class="ion-social-linkedin"></i></a>
+	     	</li>
 		</ul>	
-		<a href=""><p>Start a Project</p></a>
-		<ul>
+		<a href="/contact"><p class ="start-button">Start a Project</p></a>
+		<ul class="contact">
 			<li>Name</li>
 			<li>Address</li>
 			<li>Number</li>

@@ -1,0 +1,28 @@
+footer {
+	color: white;
+	background-color: black;
+}
+
+.social_nav {
+	list-style: none;
+	display: block;
+	float: left;
+}
+.social_nav li {
+
+	margin-top: 2em; 
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+}
+
+.social_nav li a {
+	padding: 1em;
+	color: white;
+}
+
+.contact {
+	display: block;
+	list-style: none;
+
+}
