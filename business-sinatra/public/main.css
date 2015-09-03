@@ -1,11 +1,15 @@
 footer {
 	color: white;
 	background-color: black;
+	height: 200px;
+	width: 100%;
 }
 
 .social_nav {
 	list-style: none;
-	display: block;
+	display: inline-block;
+	margin-left: 3em;
+	margin-right: 3em;
 	float: left;
 }
 .social_nav li {
@@ -19,10 +23,32 @@ footer {
 .social_nav li a {
 	padding: 1em;
 	color: white;
+	font-size: 20px;
 }
 
 .contact {
-	display: block;
+	display: inline-block;
 	list-style: none;
+	margin-top: 2em;
+	margin-left: 3em;
+	margin-right: 3em;
+	width: 100px;
+	height: 100px;
+}
 
+.start-button {
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	border: 1px solid white;
+	width: 155px;
+	height: 40px;
+	display: inline-block;
+	margin: 1em 10em 1em 11em;
+	padding: 0.5em;
+}
+
+footer p {
+	width: 90%;
+	text-align: center;
 }
