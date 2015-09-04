@@ -1,0 +1,23 @@
+body {
+	background-color: grey;
+}   
+.ty p {
+	font-size: 1.2em;
+		padding-bottom: 6em;
+		border-bottom: outset black;
+		border-height: 50px;
+		line-height: 20px;
+}
+
+
+
+.ty img{
+	float: left;
+	width: 300px;
+	clear: both;
+	margin-right: 20px; 
+}
+
+.ty h1{
+	font-size: 2em;
+}
