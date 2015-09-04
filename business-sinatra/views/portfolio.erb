@@ -1,7 +1,7 @@
 <div class="portfolio">
 	<h1 class="our_work">Our Work</h1>
 	<div class="portfolio_imgs">
-		<img src="/images/proj1.jpg" height="300px" width="300px">
+		<img src="/images/proj1.jpg" height="300px" width="300px" id="imgfad1">
 		<img src="/images/proj2.jpg" height="300px" width="300px">
 		<img src="/images/proj3.jpg" height="300px" width="300px">
 		<img src="/images/proj4.jpg" height="300px" width="300px">
@@ -12,3 +12,18 @@
 		<img src="/images/proj9.jpg" height="300px" width="300px">
 	</div>
 </div>	
+
+<script>
+$( "img" ).hover(
+  function() {
+    $( this ).append( $( "<span> ***</span>" ) );
+  }, function() {
+    $( this ).find( "span:last" ).remove();
+  }
+);
+ 
+$( "img.imgfad1" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 500 );
+});
+</script>
