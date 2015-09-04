@@ -1,21 +1,33 @@
  <!DOCTYPE html>
  <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="james.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<!-- <link rel="stylesheet" type="text/css" href="laura.css"> -->
 	<link rel="stylesheet" type="text/css" href="artie.css">
-	<!-- <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"> -->
+
+	<link rel="stylesheet" type="text/css" href="ty.css">
+
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="/js/artie.js"></script>
+	<script type="text/javascript" src="artie.js"></script>
+	<script type="text/javascript" src="js/blog.js"></script>
+
 	<meta charset = "UTF-8">
 	<title><%= @title  %></title>
 </head>
 <body>
+	<script>
+		$( window ).scroll(function() {
+  	$( "#logo" ).fadeOut( "3000" );
+		});
+	</script>
 	<head>
 		<nav>
 			<div id="logo">
 				<p>LAJ.</p>
 			</div>
+			<p id="logop">LAJ. Consulting.</p>
 			<ul class="nav_bar">
 				<li><a href='/'>Home</li></a>
 				<li><a href='/ourteam'>Our Team</li></a>
