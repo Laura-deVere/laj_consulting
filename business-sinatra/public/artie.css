@@ -1,7 +1,7 @@
 figcaption {color:white;
            width: 120px;
            }
-img {
+.ourteam{
 	box-shadow: 7px 8px 9px; 
 	width:300px;
 }
@@ -9,7 +9,6 @@ img {
 body {background-color: cyan; }   
 
 .about {float: left; margin-left: -40px; }
-
 
 
 figure {
@@ -20,3 +19,9 @@ footer {
 	clear: both;
 }
 p {font-size: 2em;}
+.contact
+
+input     { width: 300px ; 
+	       height: 20px;}
+textarea  {width: 300px; 
+	      height: 100px;}
