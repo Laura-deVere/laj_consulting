@@ -1,0 +1,63 @@
+body {
+	background-color: #fff;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+#first-div {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#main-header {
+	width: 35%;
+	margin: 0 auto;
+	float: left;
+}
+
+#our-services {
+	margin: 70px 0 0 160px;
+}
+
+#first-p {
+	margin-right: 100px;
+}
+
+#main-text {
+	width: 45%;
+	margin: 0 auto;
+	float: right;
+}
+
+#main-div {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#top-left {
+	width: 40%;
+	margin: 0 auto;
+	float: left;
+}
+
+#top-right {
+	width: 40%;
+	margin: 0 auto;
+	float: right;
+}
+
+.break {
+	clear: both;
+}
+
+#btm-left {
+	width: 40%;
+	margin: 0 auto;
+	float: left;
+}
+
+#btm-right {
+	width: 40%;
+	margin: 0 auto;
+	float: right;
+}
+	
