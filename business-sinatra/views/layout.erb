@@ -12,11 +12,17 @@
 	<title><%= @title  %></title>
 </head>
 <body>
+	<script>
+		$( window ).scroll(function() {
+  	$( "#logo" ).fadeOut( "3000" );
+		});
+	</script>
 	<head>
 		<nav>
 			<div id="logo">
 				<p>LAJ.</p>
 			</div>
+			<p id="logop">LAJ. Consulting.</p>
 			<ul class="nav_bar">
 				<li><a href='/'>Home</li></a>
 				<li><a href='/ourteam'>Our Team</li></a>
