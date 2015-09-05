@@ -1,0 +1,415 @@
+/***Artie's CSS***/
+
+figcaption {
+	color:white;
+  width: 120px;
+}
+.ourteam {
+	box-shadow: 7px 8px 9px; 
+	width:300px;
+}  
+
+.about {float: left; margin-left: -40px; }
+
+figure {
+	float: left;
+}
+
+.artie-p {font-size: 2em;}
+
+/*.contact*/
+
+input { 
+	width: 300px; 
+	height: 20px;
+}
+
+textarea {
+	width: 300px; 
+	height: 100px;
+}
+
+/***James' CSS***/
+
+body {
+	background-color: #fff;
+	font-family: 'Droid Sans', sans-serif;
+	color: #333333;
+	margin: 0;
+}
+
+.spacer-div {
+	padding-top: 140px;
+}
+
+#first-div {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#main-header {
+	width: 35%;
+	margin: 0 auto;
+	float: left;
+}
+
+#our-services {
+	margin: 70px 0 0 160px;
+}
+
+#first-p {
+	margin-right: 100px;
+}
+
+.james-p {
+
+}
+
+#main-text {
+	width: 45%;
+	margin: 0 auto;
+	float: right;
+}
+
+#main-div {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#top-left {
+	width: 40%;
+	margin: 0 auto;
+	float: left;
+}
+
+#top-right {
+	width: 40%;
+	margin: 0 auto;
+	float: right;
+}
+
+.break {
+	clear: both;
+}
+
+#btm-left {
+	width: 40%;
+	margin: 0 auto;
+	float: left;
+}
+
+#btm-right {
+	width: 40%;
+	margin: 0 auto;
+	float: right;
+}
+
+/***Laura's CSS***/
+
+.portfolio {
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	padding-top: 100px;
+	margin-bottom: 75px;
+}
+
+.our_work {
+	margin-bottom: 2em; 
+}
+
+.portfolio_imgs {
+	width: 1200px;
+	height: 1000px;
+	margin-left: 100px;
+	margin-bottom: 75px; 
+	padding-bottom: 100px;
+}
+
+.our_work {
+	text-align: center;
+}
+
+#img1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/proj1.jpg");
+	height: 350px;
+	width: 350px;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	float: left;
+}
+
+#hidden_text_1 {
+	display: none;
+	background-color: rgba(255,255,255,0.9);
+	font-size: 25px;
+	padding: 2em;
+}
+
+#img2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/proj2.jpg");
+	height: 350px;
+	width: 350px;
+	margin: 0;
+	display: inline;
+	float: left;
+}
+
+#hidden_text_2 {
+	display: none;
+	background-color: rgba(255,255,255,0.9);
+	font-size: 25px;
+	padding: 2em;
+}
+
+#img3 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/proj3.jpg");
+	height: 350px;
+	width: 350px;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	float: left;
+}
+
+#hidden_text_3 {
+	display: none;
+	background-color: rgba(255,255,255,0.9);
+	font-size: 25px;
+	padding: 2em;	
+}
+
+#img4 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/proj4.jpg");
+	height: 350px;
+	width: 350px;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	float: left;
+}
+
+#hidden_text_4 {
+	display: none;
+	background-color: rgba(255,255,255,0.9);
+	font-size: 25px;
+	padding: 2em;	
+}
+
+#img5 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/proj5.jpg");
+	height: 350px;
+	width: 350px;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	float: left;
+}
+
+#hidden_text_5 {
+	display: none;
+	background-color: rgba(255,255,255,0.9);
+	font-size: 25px;
+	padding: 2em;	
+}
+
+#img6 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/proj6.jpg");
+	height: 350px;
+	width: 350px;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	float: left;
+}
+
+#hidden_text_6 {
+	display: none;
+	background-color: rgba(255,255,255,0.9);
+	font-size: 25px;
+	padding: 2em;	
+}
+
+#img7 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/proj7.jpg");
+	height: 350px;
+	width: 350px;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	float: left;
+}
+
+#hidden_text_7 {
+	display: none;
+	background-color: rgba(255,255,255,0.9);
+	font-size: 25px;
+	padding: 2em;	
+}
+
+#img8 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/proj8.jpg");
+	height: 350px;
+	width: 350px;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	float: left;
+}
+
+#hidden_text_8 {
+	display: none;
+	background-color: rgba(255,255,255,0.9);
+	font-size: 25px;
+	padding: 2em;	
+}
+
+
+#img9 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/proj9.jpg");
+	height: 350px;
+	width: 350px;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	float: left;
+}
+
+#hidden_text_9 {
+	display: none;
+	background-color: rgba(255,255,255,0.9);
+	font-size: 25px;
+	padding: 2em;
+}
+
+/***Ty's CSS***/
+ 
+.ty p {
+	font-size: 1.2em;
+	padding-bottom: 6em;
+	border-bottom: outset black;
+	border-height: 50px;
+	line-height: 20px;
+}
+
+.ty img{
+	float: left;
+	width: 300px;
+	clear: both;
+	margin-right: 20px; 
+}
+
+.ty h1{
+	font-size: 2em;
+}
+
+/***Layout CSS***/
+
+nav {
+	background-color: white;
+	height:100px;
+	width: 100%;
+	position: fixed;
+	margin: 0;
+	z-index: 40;
+}
+
+#logo {
+	display: inline-block;
+	background-color: black;
+	border-radius: 50%;
+	border: 1px solid black;
+	color: white;
+	height: 75px;
+	width: 75px;
+}
+
+#logo p {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding: 1em;
+}
+
+#logop {
+	display: inline-block;
+}
+
+.nav_bar {
+	list-style: none;
+	float: right;
+	margin-top: 3em;	
+}
+
+.nav_bar li {
+	display: inline-block;
+}
+
+.nav_bar li a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding: 1em;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+/*---------FOOTER----------------*/
+
+footer {
+	color: white;
+	background-color: black;
+	height: 200px;
+	width: 100%;
+	clear: both;
+}
+
+.social_nav {
+	list-style: none;
+	display: inline-block;
+	margin-left: 3em;
+	margin-right: 3em;
+	float: left;
+}
+.social_nav li {
+
+	margin-top: 2em; 
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+}
+
+.social_nav li a {
+	padding: 1em;
+	color: white;
+	font-size: 20px;
+}
+
+.contact {
+	display: inline-block;
+	list-style: none;
+	margin-top: 2em;
+	margin-left: 3em;
+	margin-right: 3em;
+	width: 100px;
+	height: 100px;
+}
+
+.start-button {
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	border: 1px solid white;
+	width: 155px;
+	height: 40px;
+	display: inline-block;
+	margin: 1em 10em 1em 11em;
+	padding: 0.5em;
+}
+
+footer p {
+	width: 90%;
+	text-align: center;
+}
