@@ -36,6 +36,7 @@
 }
 
 #hidden_text_1 {
+	text-align: center;
 	display: none;
 	background-color: rgba(255,255,255,0.9);
 	font-size: 25px;
@@ -53,6 +54,7 @@
 }
 
 #hidden_text_2 {
+	text-align: center;
 	display: none;
 	background-color: rgba(255,255,255,0.9);
 	font-size: 25px;
@@ -70,6 +72,7 @@
 }
 
 #hidden_text_3 {
+	text-align: center;
 	display: none;
 	background-color: rgba(255,255,255,0.9);
 	font-size: 25px;
@@ -87,6 +90,7 @@
 }
 
 #hidden_text_4 {
+	text-align: center;
 	display: none;
 	background-color: rgba(255,255,255,0.9);
 	font-size: 25px;
@@ -104,6 +108,7 @@
 }
 
 #hidden_text_5 {
+	text-align: center;
 	display: none;
 	background-color: rgba(255,255,255,0.9);
 	font-size: 25px;
@@ -121,6 +126,7 @@
 }
 
 #hidden_text_6 {
+	text-align: center;
 	display: none;
 	background-color: rgba(255,255,255,0.9);
 	font-size: 25px;
@@ -138,6 +144,7 @@
 }
 
 #hidden_text_7 {
+	text-align: center;
 	display: none;
 	background-color: rgba(255,255,255,0.9);
 	font-size: 25px;
@@ -155,6 +162,7 @@
 }
 
 #hidden_text_8 {
+	text-align: center;
 	display: none;
 	background-color: rgba(255,255,255,0.9);
 	font-size: 25px;
@@ -173,6 +181,8 @@
 }
 
 #hidden_text_9 {
+	font-size: 15px;
+	text-align: center;
 	display: none;
 	background-color: rgba(255,255,255,0.9);
 	font-size: 25px;
