@@ -1,7 +1,11 @@
+#wrapper {
+	width: 1000px;
+	margin-bottom: 100px;
+}
 /***Artie's CSS***/
 
 figcaption {
-	color:white;
+	color: black;
   width: 120px;
 }
 .ourteam {
@@ -16,9 +20,6 @@ figcaption {
 figure {
 	float: left;
 }
-
-.artie-p {
-	font-size: 2em;}
 
 #address {	
 	height: 200px;
@@ -41,9 +42,11 @@ figure {
 	width: 500px;
 	padding: 100px;
 	display: block;
-	position: absolute;
-	margin-top: 600px;
-	margin: 600px auto;
+	position: relative;
+	bottom: 500px;
+	color: #fff;
+	/*margin-top: 600px;*/
+	/*margin: 600px auto;*/
 }
 
 
@@ -67,12 +70,12 @@ textarea {
 	padding-top: 150px;
 	padding-bottom: 150px;
 	margin: 0;
-	position: absolute;
+	/*position: absolute;*/
 }
 
 #contact_contain {
 	margin-bottom: 300px;
-	height: 900px;
+	height: 600px;
 }
 
 /***James' CSS***/
@@ -102,14 +105,11 @@ body {
 
 #our-services {
 	margin: 70px 0 0 240px;
+	float: right;
 }
 
 #first-p {
 	margin-right: 100px;
-}
-
-.james-p {
-
 }
 
 #main-text {
@@ -415,6 +415,7 @@ nav {
 	padding: 1em;
 	margin-right: 1em;
 	margin-left: 1em;
+	border-bottom: 1px solid #C8CCC1;
 }
 
 /*---------FOOTER----------------*/
@@ -426,6 +427,7 @@ footer {
 	width: 100%;
 	padding: 0;
 	clear: both;
+	position: relative;
 }
 
 .social_nav {

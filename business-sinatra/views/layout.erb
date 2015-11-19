@@ -5,8 +5,7 @@
 	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="artie.js"></script>
-	<script type="text/javascript" src="js/blog.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 
 	<meta charset = "UTF-8">
 	<title><%= @title  %></title>
@@ -23,11 +22,11 @@
 			</div>
 			<p id="logop">LAJ Consulting</p>
 			<ul class="nav_bar">
-				<li><a href='/'>Home</li></a>
-				<li><a href='/ourteam'>Our Team</li></a>
-				<li><a href='/portfolio'>Portfolio</li></a>
+				<li id="home"><a href='/'>Home</li></a>
+				<li id="our-team"><a href='#'>Our Team</li></a>
+				<li id="portfolio"><a href='#'>Portfolio</li></a>
 				<li><a href='/blog'>Blog</li></a>
-				<li><a href='/contact'>Contact</li></a>
+				<li id="contactus"><a href='#'>Contact</li></a>
 			</ul>
 		</nav>
 	<%= yield %>
